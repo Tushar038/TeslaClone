@@ -107,24 +107,14 @@ const RightMenu = styled.div`
     padding: 5px 15px;
     border-radius: 5px;
   }
-  CustomMenu:hover{
-    background-color: #DFDFDE96;
-    padding: 5px 15px;
-    border-radius: 5px;
-  }
-  AiOutlineMenu:hover{
-    background-color: #DFDFDE96;
-    padding: 5px 15px;
-    border-radius: 5px;
-  }
+  
 
 
 `
 
 
 const CustomMenu = styled(AiOutlineMenu)`
- cursor: pointer;
-
+ cursor: pointer; 
 
 `
 const BurgerNav = styled.div`
